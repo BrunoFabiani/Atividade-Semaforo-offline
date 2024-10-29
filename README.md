@@ -19,7 +19,7 @@ Fernando Oliveira - 10
 | LED Verde             | 5 mm, tensão de 2V            |
 | Jumper Macho/Fêmea    | 5 unidades                    |
 | Jumper Macho/Macho    | 7 unidades                    |
-| Resistor              | 220 ohms, 2 unidades          |
+| Resistor              | 1000 ohms, 2 unidades          |
 | Buzzer                | 5V, tensão nominal            |
 
 
