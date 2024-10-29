@@ -5,6 +5,7 @@ Gustavo da Costa - 10
 
 Componentes utilizados -
 Arduino Uno
+Cabo USB A/b 50cm
 Protoboard 400 pontos
 1 led vermelho
 1 led amarelo
