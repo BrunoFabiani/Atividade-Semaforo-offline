@@ -1,9 +1,9 @@
 # Atividade-Semaforo-offline
-Notas:
+## Notas:
 Gustavo da Costa - 10
 
 
-Componentes utilizados -
+## Componentes utilizados -
 Arduino Uno
 Cabo USB A/b 50cm
 Protoboard 400 pontos
@@ -15,10 +15,10 @@ Protoboard 400 pontos
 2 resistores
 1 buzzer
 
-Montagem:
+## Montagem:
 Para a montagem do semáforo, primeiramente foram conectados o GND e o 5V do Arduino nas filas de negativo e positivo da protoboard. Em seguida, os LEDs vermelho, amarelo e verde foram posicionados e conectados aos pinos digitais correspondentes no Arduino para controle da sequência de iluminação, e o buzzer foi ligado ao pino configurado para emitir som. Cada LED foi acompanhado de um resistor para limitar a corrente e proteger os componentes.
 
-Código utilizado:
+## Código utilizado:
 void setup() {  
     // define o pino do LED vermelho
     pinMode(13,OUTPUT);
