@@ -8,17 +8,20 @@ Gustavo da Costa - 10
 Fernando Oliveira - 10
 
 ## Componentes utilizados
-- Arduino Uno
-- Cabo USB A/B 50cm
-- Protoboard 400 pontos
-- Montagem de madeira de um semáforo
-- 1 led vermelho
-- 1 led amarelo
-- 1 led verde
-- 5 jumper macho/fêmea
-- 7 jumper macho/macho
-- 2 resistores
-- 1 buzzer
+| Componente            | Especificação                  |
+|-----------------------|--------------------------------|
+| Arduino               | Arduino Uno                    |
+| Cabo USB              | Cabo USB A/B, 50 cm           |
+| Protoboard            | 400 pontos                    |
+| Montagem de suporte   | Madeira, formato de semáforo  |
+| LED Vermelho          | 5 mm, tensão de 2V            |
+| LED Amarelo           | 5 mm, tensão de 2V            |
+| LED Verde             | 5 mm, tensão de 2V            |
+| Jumper Macho/Fêmea    | 5 unidades                    |
+| Jumper Macho/Macho    | 7 unidades                    |
+| Resistor              | 220 ohms, 2 unidades          |
+| Buzzer                | 5V, tensão nominal            |
+
 
 ## Montagem:
 Para a montagem do semáforo, primeiramente, o GND e o 5V do Arduino foram conectados às linhas de negativo e positivo da protoboard, respectivamente, para fornecer a alimentação aos componentes. Os LEDs vermelho, amarelo e verde foram posicionados no modelo do semáforo e conectados aos pinos digitais correspondentes do Arduino (13, 12 e 11) para permitir o controle da sequência de iluminação. A parte negativa (cátodo) de cada LED foi conectada à linha de GND na protoboard, que por sua vez estava conectada ao GND do Arduino. Um resistor foi utilizado em série com cada LED para limitar a corrente, garantindo a proteção dos componentes. O buzzer foi ligado ao pino digital 10 e conectado ao GND da protoboard, configurado para emitir som durante a ativação do LED verde.
