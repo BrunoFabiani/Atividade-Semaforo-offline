@@ -1,4 +1,8 @@
 # Atividade-Semaforo-offline
+
+## LINK VÍDEO:
+https://youtu.be/v-Oz2OV4sKg
+
 ## Notas:
 Gustavo da Costa - 10
 
